@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nosifer&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+.navbar{
+  overflow:hidden;
+  position:fixed;
+  top:0px;
+  width:100%;
+  background-color:#333;
+  color:#fff;
+  left:0px;
+}
+.navbar a{
+  color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    float:right;
+    display:block;
+    padding: 12px 40px;
+    text-align:center;
+}
+.navbar a:hover{
+  font-size:25px;
+}
+
+.about{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.soni{
+flex-basis:33%;
+min-width:300px;
+}
+.soni img{
+    max-width:100%;
+    border:solid 1px #000;
+      height:800px;
+      width:570px;
+      margin:10px;
+margin-top:60px;
+}
+.soni h1{
+  line-height: 60px;
+    font-size:53px;
+    margin:-774px 682px;
+    text-shadow: 2px 3px 1.6px #a39797;
+    font-family:'Oregano',sans-serif;
+}
+.soni h1 div{
+  margin:-60px 230px;
+  font-family:'Oregano',sans-serif;
+  text-shadow: 2px 3px 1.6px #a39797;
+}
+.soni p{
+  font-size: 24px;
+  margin:804px 717px;
+text-shadow: 1px 0px 0.4px #AED581;
+}
+.half ul li{
+float:none;
+}
+.half ul{
+  background-color:#fff;
+}
+.half ul li a{
+  color:#000;
+}
+.pic{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+.one{
+  font-size:20px;
+  margin:615px 151px;
+  text-align:right;
+color:#11ca1a;
+}
+.two{
+  margin:-593px 181px;
+  font-size:20px;
+  text-align:right;
+color:#11ca1a;
+}
+.three{
+  font-size:30px;
+  margin:655px 59px;
+  text-align:right;
+
+}
+.points{
+  color:#000;
+  font-size:30px;
+}
+.first{
+margin:8px -141px;
+}
+.sec{
+margin:8px -160px;
+}
+.third{
+margin: 9px -147px;
+}
+.fourth{
+margin: 1px  -338px;
+}
+.fifth{
+margin:  5px -180px;
+}
+.seventh{
+  margin: 10px -347px;
+}
+.sixth{
+  margin: 0px -46px;
+}
+body{
+  background-color:#fbfbef;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  overflow-x:hidden;
+  }
+  #about{
+    width:980px;
+    margin:0px auto;
+
+  }
+  .para{
+    font-size:45px;
+    margin:-794px -131px;
+  }
+  .quote{
+    color:#11ca1a;
+    font-size:16px;
+    margin:22px 14px;
+    width:315px;
+    font-family:'Parisienne',sans-serif;
+    word-spacing:1px;
+
+  }
+  .link{
+    text-decoration-line:none;
+
+  }
+  .t{
+    color:#000;
+  }
+  .T{
+    color:#11ca1a;
+  }
+
+  .linea {
+    margin:-690px 10px;
+    font-size:20px;
+    padding:0px 30px;
+    font-family:'Bitter',sans-serif;
+  }
+  .lineb {
+    margin:693px 10px;
+    font-size:20px;
+    padding:0px 30px;
+      font-family:'Bitter',sans-serif;
+  }
+      .linec{
+        margin:-691px 10px;
+        font-size:20px;
+        padding:0px 30px;
+          font-family:'Bitter',sans-serif;
+      }
+        .lined{
+      margin:698px 10px;
+      font-size:20px;
+      padding:0px 30px;
+        font-family:'Bitter',sans-serif;
+        margin-bottom:0px;
+        }
+        .btn{
+          margin-left:388px;
+          margin-top:138px;
+        }
+        #resume{
+          background-color: #FF8F00;
+            height: 33px;
+            width: 158px;
+            color: #000;
+            font-size: 27px;
+            border: 1.2px solid black;
+            font-style: italic;
+            border-radius:20px;
+            padding: 5px 5px;
+    text-decoration: none;
+    box-shadow: 3px 2px 4.1px #616161;
+        }
+        .portbtn{
+          text-decoration-line:none;
+          color:#000;
+        }
+.end{
+  font-size: 22px;
+    text-align: center;
+    margin-top: 77px;
+}

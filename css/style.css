@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+body{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+.navbar{
+  overflow:hidden;
+  position:fixed;
+  top:0px;
+  width:100%;
+  background-color:#333;
+  color:#fff;
+  left:0px;
+}
+.navbar a{
+  color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    float:right;
+    display:block;
+    padding: 12px 40px;
+    text-align:center;
+}
+.navbar a:hover{
+  font-size:25px;
+}
+.cover{
+  height: 550px;
+    width: 1000px;
+    margin: 100px 275px;
+    box-shadow: 118px -64px 0.1px #FFF9C4;
+
+}
+.pencil{
+  width:1000px;
+  height:550px;
+margin-top:70px;
+  background-size:cover;
+  background-position:center;
+}
+.hello h1{
+  font-size:125px;
+
+}
+.hello{
+  text-indent:-162px;
+  padding:10px;
+  margin: -666px 216px;
+  text-shadow: 3px 2px 3.1px #616161;
+}
+.details{
+  text-indent: -67px;
+    font-size: 27px;
+color: #1A237E;
+    margin: 576px 213px
+}
+#content div{
+  margin: 123px;
+    margin-bottom: 15px;
+}
+#content{
+  width:980px;
+  margin:0px auto;
+  padding: 10px 40px 10px 40px;
+
+    word-spacing: 4px;
+    font-size:20px;
+    font-family:"Bitter",'sans-serif';
+
+}
+.btn{
+  text-align:center;
+  background-color: #03A9F4;;
+  font-size:22px;
+  width:208px;
+  height:40px;
+  display:block;
+  overflow:hidden;
+  line-height:35px;
+box-shadow: 3px 3px 2.5px #c0b6b6;
+  border:2px solid #000;
+margin:75px 410px;
+border-radius:15px;
+text-decoration:none;
+color:#000;
+}
+.portbtn{
+  text-decoration-line:none;
+  color:#000;
+}
+.soni{
+flex-basis:50%;
+min-width:300px;
+}
+.half ul li{
+float:none;
+}
+.half ul{
+  background-color:#fff;
+}
+.half ul li a{
+  color:#000;
+}
+.pic{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+.one{
+  font-size:20px;
+  margin:-579px 315px;
+  text-align:right;
+  color:#2fe138;
+}
+.two{
+  margin:584px 334px;
+  font-size:20px;
+  text-align:right;
+  color:#2fe138;
+}
+.three{
+  font-size:20px;
+  margin:-569px 320px;
+  text-align:right;
+  color:#2fe138;
+}
+.points{
+  color:#000;
+  font-size:40px;
+}
+.first{
+margin:-26px -83px;
+}
+.sec{
+margin:15px -148px;
+}
+.third{
+margin: -28px -177px;
+}
+.fourth{
+margin: 16px  -260px;
+}
+.fifth{
+margin:  -27px -188px;
+}
+.cover{
+  margin: 100px 275px;
+}

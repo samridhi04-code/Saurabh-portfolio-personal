@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Grenze+Gotisch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Grenze+Gotisch&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+body{
+  background-color:#CEF6F5;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  overflow-x:hidden;
+  }
+  .navbar{
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    width:100%;
+    background-color:#333;
+    color:#fff;
+    left:0px;
+  }
+  .navbar a{
+    color: #fff;
+      text-decoration: none;
+      font-size:20px;
+      float:right;
+      display:block;
+      padding: 12px 40px;
+      text-align:center;
+  }
+  .navbar a:hover{
+    font-size:25px;
+  }
+
+#content{
+  width:980px;
+  margin:0px auto;
+  background-color:#fff;
+  border: 4px solid #1e0861;
+    border-top: hidden;
+    margin-bottom:90px;
+    box-shadow: 6px -6px 11.1px #7d8a97;
+}
+ .one{
+  background-color: #1e0861;
+    font-size: 120px;
+    padding: auto 10px;
+    padding: 0px 41px;
+    padding-top: 5px;
+    padding-bottom: 27px;
+    color: #fff;
+    margin: 90px -1px;
+    margin-bottom:0px;
+    text-shadow: 3px 3px 6.1px #a29b9b;
+    font-family:"Oleo Script Swash Caps",'sans-serif';
+}
+.two{
+  margin: 20px 0px;
+    font-size: 22px;
+    padding: 0px 20px;
+font-family:"Bitter",'sans-serif';
+}
+.inone{
+  font-size: 33px;
+    margin: 0px 309px;
+  }
+
+.intwo{
+  font-size: 33px;
+    margin: 0px 309px;
+}
+.inthree{
+  font-size: 33px;
+    text-align: center;
+}
+.click{
+  text-align:center;
+}
+#btn{
+  margin: 49px 0px;
+}
+.three{
+  margin: 20px 0px;
+    font-size: 32px;
+    padding: 0px 20px;
+    font-family: 'Playfair Display',sans-serif;
+    font-style:italic;
+}
+.link1{
+  height:55px;
+  margin-bottom: -13px;
+    margin-top: 10px;
+}
+.four{
+  text-align:center;
+}
+.link2,.link5{
+  height:70px;
+}
+.link3{
+  height:73px;
+}
+.link4{
+  height:83px;
+}
+.five{
+  margin: 20px 0px;
+    font-size: 32px;
+    padding: 0px 20px;
+    font-family: 'Playfair Display',sans-serif;
+    font-style:italic;
+}
+.img-1
+{
+  margin:0px 110px;
+}
+.img-2
+{
+  margin:0px 45px;
+}
+.img-3
+{
+  margin:0px 113px;
+}
+.img-4
+{
+  padding:0px 36px;
+}
+.six{
+  background-color: #00BCD4;
+    margin: -1px 0px;
+}
+.four a{
+  text-decoration:none;
+  color:#000;
+  font-family: 'Lobster',sans-serif;
+}
+.inone input,.intwo input,.inthree input{
+  background-color: #d7e4ff;
+  box-shadow:2px -2px 5.1px #b8b1b1;
+  width:162px;
+}
+.click button{
+  height: 38px;
+    border: 2px solid #000;
+    width: 160px;
+    background-color: #9E9E9E;
+    box-shadow: 3px -2px 6.1px #b5b1b1;
+}
+.inone,.intwo,.inthree{
+  font-family: 'Playfair Display',sans-serif;
+}
+#error_message{
+  padding:0px;
+  background-color:#fe8b8e;
+  text-align:center;
+  font-size:14px;
+  transition:all 0.5s ease;
+  margin-bottom:20px;
+  width: 345px;
+    margin-left: 308px;
+}
+.inthree textarea{
+  background: #d7e4ff;
+    box-shadow: 2px -2px 5.1px #b8b1b1;
+    border: 2px solid #000;
+
+}

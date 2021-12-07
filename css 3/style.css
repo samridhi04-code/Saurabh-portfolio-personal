@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+body{
+  margin:0px;
+  padding:0px;
+  border:0px;
+  overflow-x:hidden;
+}
+.navbar{
+  overflow:hidden;
+  position:fixed;
+  top:0px;
+  width:100%;
+  background-color:#333;
+  color:#fff;
+  left:0px;
+}
+.navbar a{
+  color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    float:right;
+    display:block;
+    padding: 12px 40px;
+    text-align:center;
+}
+.navbar a:hover{
+  font-size:25px;
+}
+#work{
+  width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+}
+#slider{
+  overflow:hidden;
+  margin-top:46px;
+}
+#slider figure{
+  margin:0;
+  left:0;
+  position:relative;
+  width:500%;
+  animation: 20s slider infinite linear;
+}
+#slider figure img{
+  float:left;
+width:20%;
+height:650px;
+}
+
+@keyframes slider{
+  0%{
+    left:0;
+  }
+20%{
+  left:0;
+  }
+  25%{
+    left:-100%;
+  }
+
+  45%{
+  left:-100%;
+  }
+  50%{
+  left:-200%;
+  }
+70%{
+  left:-200%;
+}
+75%{
+  left:-300%;
+}
+95%{
+  left:-300%;
+}
+100%{
+  left:-400%;
+}
+}
+#work h1{
+  font-size: 55px;
+  font-weight:300px !important;
+    text-align: center;
+    font-family:"Uncial Antiqua",'sans-serif';
+    text-shadow: 2px 2px 1.6px #929090;
+    text-decoration:underline;
+    line-height:35px;
+}
+.sld{
+  width: 306px;
+    height: 250px;
+    border: 1px solid #000;
+    margin: 5px 44px;
+    box-shadow: 5px 4px 5.8px #b79797;
+}
+.more{
+  color: #f00;
+    font-size: 22px;
+    text-indent: -61px;
+    padding: 0px 579px;
+}
+#more{
+  display:none;
+}
+button{
+  margin-bottom: 15px;
+    background-color: darkturquoise;
+    width: 115px;
+    height: 33px;
+    font-size: 22px;
+    outline: none;
+    box-shadow: 3px 3px 3.1px #BDBDBD;
+    cursor:pointer;
+    margin-top: 35px;
+}
+.sld:hover{
+  opacity:0.3;
+}
